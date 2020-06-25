@@ -1,8 +1,12 @@
-package com.altimetrik.orderservice.domain;
+package com.altimetrik.orderitemservice.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Item {
 
-
+	@Id
 	private int id;
 	private String productCode;
 	private String produtName;
